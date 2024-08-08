@@ -4,6 +4,8 @@ import cardata from "../cardata.json";
 import Headingtitle from "../components/Headingtitle";
 import Error from "../components/Error";
 
+// data
+
 function Newcarview() {
   const { carid } = useParams();
   const car = cardata.cardata.find((c) => c.id === carid);

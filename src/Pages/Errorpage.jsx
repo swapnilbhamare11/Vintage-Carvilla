@@ -14,5 +14,5 @@ function Errorpage() {
     </>
   );
 }
-
+   
 export default Errorpage;
