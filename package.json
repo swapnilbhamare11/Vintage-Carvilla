@@ -14,6 +14,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/react": "^17.0.80",
     "bootstrap": "^5.3.3",
     "mdb-react-ui-kit": "^8.0.0",
     "react": "^18.2.0",
@@ -26,7 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build --legacy-peer-deps",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -49,7 +50,7 @@
     ]
   },
   "devDependencies": {
-    "json-loader": "^0.5.7",
-    "@babel/plugin-proposal-private-property-in-object": "^7.18.6"
+    "@babel/plugin-proposal-private-property-in-object": "^7.18.6",
+    "json-loader": "^0.5.7"
   }
 }
